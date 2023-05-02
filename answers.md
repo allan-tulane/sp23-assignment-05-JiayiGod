@@ -30,7 +30,7 @@ The reason why the greedy algorithm does not work optimally in Fortuito is that 
 
 - **2b.**
 
-Let $C(i)$ be minimum number of coins needed and $i$ be the total amount of money. Let $D_k$ be the k-th denomination. Then, the optimal substructure would be:
+Let $C(i)$ be minimum number of coins needed and $i$ be the total amount of money. Let $D_k$ be the k-th denomination. Then, the optimal substructure in the case we can make change would be:
 
 $C(i)=min(C(i-D_k)+1)$ , where $0<=k<=n$, $i>=D_k$, and $C(0)=0$
 
